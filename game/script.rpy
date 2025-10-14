@@ -302,7 +302,24 @@ label fourth ending:
 
     m2 "You could try and give me some advice, anyways."
 
-    a "Don't talk to the Caeloran princess."
+    a "I don't have much good advice to give, anyways. I lived a pitiful life. There's not the slightest bit of glory in bloodshed, and only a slow-witted young man could imagine otherwise."
 
-    ""
+    m2 "Is there anything I can do for you?"
 
+    "Adonis hesitates."
+
+    a "There is a grave I want you to visit."
+
+    screen black with fade
+
+    m2 "Beloved daughter... and wife... Marilyn?"
+
+    #bittersweet music starts, maybe music box noise?
+
+    "Adonis came every week, with amaranths."
+
+    #scene bg with grave with dozens of rotting amaranths.
+
+    m2 "{i}Father said that I was named after her.{/i}"
+
+    "He leaves amaranths on her grave."
