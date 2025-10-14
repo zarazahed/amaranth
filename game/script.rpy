@@ -290,7 +290,19 @@ label fourth ending:
 
     a "Idiot child. Don't you have any sense to try to not contact it as well?"
 
-    
+    "Silence."
+
+    m2 "How long do you think you have to live?"
+
+    a "Not long enough, that's certain."
+
+    m2 "First mother, now you... how do you expect me to take up this responsibility by myself?"
+
+    a "I would say that you'll be fine, but truth be told, I have no idea."
+
+    m2 "You could try and give me some advice, anyways."
+
+    a "Don't talk to the Caeloran princess."
 
     ""
 
