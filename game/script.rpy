@@ -15,6 +15,7 @@ define i = Character("Iris")
 define s = Character("Styx")
 define o = Character("Orion")
 define m2 = Character("Marius")
+define h = Character("Helena")
 
 # The game starts here.
 
@@ -112,17 +113,64 @@ label start:
 
     e "Hm."
 
-    menu:
+    menu(time=10, timeout="rude"):
 
         "I don't see what's so funny.":
-            jump 
+            jump rude
 
         ""
             jump
 
 
-label 
+label marilyn death:
 
+    a "Where's Marilyn?"
+
+    s "She left to the party, sir."
+
+    a "No, don't tell me that. Please, anything but that."
+
+    s "Sir, if you could tell me what - "
+
+    "Adonis sprints out the door."
+
+    a "She's not there. She's not going to be there. She's not..."
+
+    screen black with fade
+    
+    m "I love Adonis, but he really does worry me."
+
+    h "I don't know what you see in him. He's awfully cold sometimes."
+
+    m "No, he really is a kind man. He's just... "
+
+    m "Where is he, anyways?"
+
+    # music stops, fades out
+
+    # explosion noise
+
+    # random frames showing the destruction n stuff
+
+    m "HELENA!"
+
+    m "Oh, god."
+
+    # helena got impaled by shards of rocks
+
+    m "Adonis! Adonis?"
+
+    "Among the chaos, she runs, searching for a singular face."
+
+    m "Adonis..."
+
+    # second explosion all that fun stuff again
+
+    # pan over to marilyns corpse
+
+    screen black with fade
+
+    # we see adonis
 
 label second ending:
 
