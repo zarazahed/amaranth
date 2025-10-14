@@ -166,11 +166,23 @@ label marilyn death:
 
     # second explosion all that fun stuff again
 
-    # pan over to marilyns corpse
+    # pan over to marilyn unconsious
 
     screen black with fade
 
     # we see adonis
+
+    a "Marilyn?"
+
+    a "MARILYN!"
+
+    # he spots marilyn
+
+    a "Oh, no. No, no, no."
+
+    "Adonis runs to Marilyn. It can't be, can it?"
+
+    m "Adonis..."
 
 label second ending:
 
