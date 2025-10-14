@@ -13,6 +13,8 @@ define k = Character("King")
 define m = Character("Mother")
 define i = Character("Iris")
 define s = Character("Styx")
+define o = Character("Orion")
+define m2 = Character("Marius")
 
 # The game starts here.
 
@@ -119,7 +121,10 @@ label start:
             jump
 
 
-label saddest ending:
+label
+
+
+label second ending:
 
     e "I knew that you woud return."
 
@@ -127,27 +132,165 @@ label saddest ending:
 
     a "Evangeline, I'm tired."
 
+    e "You certainly look it."
+
+    "His eyes grow distant as he gazes at the city."
+
+    a "Isn't it funny, how quickly things change..."
+
+    e "Why did you come?"
+
+    a "I've come to make things right."
+
+    a "We both know that what happened was wrong. This entire mess was avoidable. Dozens of people I knew are dead because of our carelessness."
+
+    e "You can't bring the dead back to life, Adonis."
+
+    a "No. You're right. I can't."
+
+    a "But I can do my part to bring justice."
+
+    "Adonis raises a gun towards Evangeline's neck."
+
+    a "I should have done this the moment I laid eyes on you."
+
+    e "I feel likewise."
+
+    a "As soon as I kill you, your guards will come and drag me off to some prison. Then I'll be tried by the court and everyone will realize how despicable I am."
+
+    a "I'll tell them about my brothers, Marilyn, and the others that I stole life from. Then I'll surely be executed."
+
+    a "At that point, we'll have atoned for our sins as well as we can. Whether we meet again in hell or not is in God's hands now."
+
+    e "Adonis."
+
+    "There is no convincing him otherwise. His eyes are locked on his target, and his grip is firm.
+
+    a "Goodbye, Evangline."
+
+    # shot noise plays
+
+    # show bg evangline getting her brain blown out (silhouette as to not traumatize people :3)
+
+    scene black with fade
+
+    "And so, their tale came to a bitter end."
+
+    "Adonis confessed to everything. When his sentence was declared, he did not resist."
+
+    scene bg execution
+
+    "In his last moments, his eyes flit around the crowd."
+
+    scene bg marilyncrowd
+
+    scene fade with black
+
+    "Ending 1: Justice"
+
+    return
 
 label sad ending:
+
+    "The aftermath of the explosion is void of life."
+
+    "Excepting one half-dead corpse of a prince."
 
     a "God, it's cold."
 
     "The sky is ashy, the sun is dim."
 
-    show bg marilyngrave
+    # play marilyns theme
 
     "Adonis squints."
 
     a "Hello?"
 
+    "With what feels like the last of his strength, he pushes himself upright and lies against the rubble."
 
+    # show adonis shocked eyes with marilyn in reflection
 
+    "Marilyn?"
 
+    "He can't believe what he is seeing, because it surely cannot be real."
 
+    scene black with fade
 
-
-
-
-    # This ends the game.
+    "Ending 2: Regret"
 
     return
+
+label third ending:
+
+    "Adonis is asleep. Unsurprisingly, he's not in bed."
+
+    "The desk is covered in letters. Not from foreign officials, but from his late mother."
+
+    # door slam noise
+
+    a "Who's there?"
+
+    o "Adonis."
+
+    a "What brings you here at this hour?"
+
+    "Adonis sits upright."
+
+    o "It confounds me how you can sleep so peacefully, sleep at all."
+
+    o "You filthy traitor."
+
+    a "Orion, calm yourself. What's going on?"
+
+    o "I knew my suspicions were correct. I've known for ages."
+
+    a "Known what, exactly?"
+
+    o "That you're the most vile human I've ever laid my eyes on. My sister, my parents, my lover. God, you've killed everyone. Even the ones closest to you haven't been spared."
+
+    "Adonis carefully shifts his hand towards the guard bell."
+
+    o "Your guards won't come in time anyways."
+
+    a "So you plan to kill me, then? Or take me as your prisoner?"
+
+    o "Listen, you rat. I would take you and torture you in a cellar till the sun rises from the east, if I could. But I would hate having to see your face every day."
+
+    "Orion draws his sword."
+
+    a "Wait. You've misunderstood..."
+
+    o "I'm afraid it's you, {i}prince{/i}, who has misunderstood. You've been dying since the moment you met that witch, and dead since I walked through the door."
+
+    #sword noise
+
+    "Orion accomplishes what he came to do."
+
+    "Ending 3: Assasination."
+
+    return
+
+label fourth ending:
+
+    "Many, many years pass."
+
+    "There is a knocking on the bedroom door."
+
+    a "Come in. Cough."
+
+    m2 "Father, what have the doctors said?"
+
+    a "The usual. That I'm going to die soon."
+
+    m2 "I'm sure that they're just -"
+
+    a "No, Marius. I've seen what this disease can do. I would be a fool to assume that I can survive it."
+
+    "Marius reaches for his hand. Adonis yanks it away."
+
+    a "Idiot child. Don't you have any sense to try to not contact it as well?"
+
+    
+
+    ""
+
