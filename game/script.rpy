@@ -121,7 +121,7 @@ label start:
             jump
 
 
-label
+label 
 
 
 label second ending:
@@ -318,8 +318,12 @@ label fourth ending:
 
     "Adonis came every week, with amaranths."
 
+    "His regrets never faded, nor did the memory of Marilyn."
+
     #scene bg with grave with dozens of rotting amaranths.
 
     m2 "{i}Father said that I was named after her.{/i}"
 
     "He leaves amaranths on her grave."
+
+    "Ending 4: Remembrance"
