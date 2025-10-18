@@ -18,7 +18,6 @@ define m2 = Character("Marius")
 define h = Character("Helena")
 
 # The game starts here.
-
 label start:
 
     scene bg room
@@ -113,13 +112,36 @@ label start:
 
     e "Hm."
 
+    "He comtemplates how to reply."
+
     menu(time=10, timeout="rude"):
 
-        "I don't see what's so funny.":
+        "I don't see what's so funny."
             jump rude
 
-        ""
-            jump
+        "You're anything but splendid yourself."
+            jump rude
+
+label rude:
+
+    "Evangeline turns and ignores him."
+
+label meeting orion:
+    a "Well, if you think that he's competent, then I trust you."
+
+    "The man enters."
+
+    a "Hello."
+
+    o "Hello, Adonis."
+
+    a "I trust that you've been primed on what we expect from you?"
+
+    o "Yes, sir."
+
+    a ""
+
+
 
 
 label marilyn death:
@@ -182,7 +204,21 @@ label marilyn death:
 
     "Adonis runs to Marilyn. It can't be, can it?"
 
+    #just imagine ts guy looking like zane from lego ninjago
+
+    #like yk the "NOOO! IT CANT BE!" ahh emote
+
     m "Adonis..."
+
+    a "Why did you leave?"
+
+    # she's running out of time
+
+    m "Thank you, Adonis."
+
+    # her eyes lose that sparkle
+
+    a "Please wake up. Marilyn. Please?"
 
 label second ending:
 
@@ -270,7 +306,7 @@ label sad ending:
 
     # show adonis shocked eyes with marilyn in reflection
 
-    "Marilyn?"
+    a "Marilyn?"
 
     "He can't believe what he is seeing, because it surely cannot be real."
 
