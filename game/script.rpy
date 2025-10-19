@@ -139,9 +139,39 @@ label meeting orion:
 
     o "Yes, sir."
 
-    a ""
+    a "I hope you understand how important your role is, Orion."
 
+    o "Believe me, sir, I do. And that's why I feel like I should begin by asking an important question."
 
+    # he takes a seat.
+
+    o "Adonis, are you certain that the person you've been searching for so carefully isn't yourself?"
+
+    # glitch effect, show Adonis sprite with blur, music stops.
+
+    # record scratch ahh
+
+    # a "Yup, that's me! You're probably wonderng how I ended up in this situation, heh. Well, its a long story!!!"
+
+    a "That's... quite a bold question to ask. And a ridiculous one, as well. You should be grateful that I would tolerate that type of accusation."
+
+    o "I mean no offense - I'm simply trying to approach this from an objective perspective. Acheron has been seen at the same time as him. Styx has as well. But he has yet to address you in any of his threats."
+
+    a "Let's rewind a bit. What makes you think that there would be any truth to that kind of theory?"
+
+    o "Well, to put it plainly, your little Caeloran acquaintance does."
+
+    # he pulls out a folder with photographs and letters.
+
+    a "(internally) Where the hell did he find these?"
+
+    a "I still don't see how my relations with the Caeloran royalty are relevant."
+
+    o "It's simple. By assuming the throne, you would find yourself in a position of power. If I had to guess, you would want to honor your mother's Caeloran roots, and avenge her by cutting of ties - if not destroying - the people who led to her death."
+
+    a "I-I don't know what to say. How did you even-?"
+
+    o "Does it not enrage you? Having to look at the faces of her killers? I've done my research, sir"
 
 
 label marilyn death:
